@@ -95,6 +95,7 @@ header{
 
 .wrapper{
     margin: 0 auto;
+    width: 100%;
     width: 120px;
     background: transparent;
     backdrop-filter: blur(10px);
