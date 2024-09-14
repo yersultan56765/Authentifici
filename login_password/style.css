@@ -15,6 +15,7 @@
     font-family: 'Reddit Sans Condensed', sans-serif;
 }
 body{
+    
     background: url("back/for.jpg") no-repeat;
     background-size: cover;
     background-size: cover,;
@@ -72,9 +73,8 @@ header{
 
 
 .wrapper{
+    margin: 0 auto;
     display: flex;
-    position: relative;
-    transform: translateX(26vw);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
