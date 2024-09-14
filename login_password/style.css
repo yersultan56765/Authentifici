@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.reddit-sans-condensed{
+                            font-family: "Handjet", sans-serif;
+                            font-optical-sizing: auto;
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reddit Sans Condensed', sans-serif;
+}
+body{
+    background: url("back/for.jpg") no-repeat;
+    background-size: cover;
+    background-size: cover,;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo:hover{
+    background-color: #ff4949;
+    border-radius: 10px;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black; /* Цвет текста в меню */
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.navigation a:hover {
+    color: white; /* Цвет при наведении */
+    background-color: #ff4949; /* Фон при наведении */
+    border-radius: 5px; /* Закругление углов */
+}
+
+
+
+
+
+.wrapper{
+    display: flex;
+    position: relative;
+    transform: translateX(26vw);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+
+}
+
+
+.wrapper{
+
+    width: 120px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 38px;
+    text-align: center;
+
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input::focus, .input-box input::valid{
+    top:-5px
+
+}
+.input-box input{
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 23px;
+}
+.wrapper .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+.remember label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember a{
+    color: white;
+    text-decoration: none;
+
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #123c3b;
+    font-weight: 500;
+}
+.wrapper .register{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper .register p{
+    font-color: white;
+
+}
+.register p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.register p a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
